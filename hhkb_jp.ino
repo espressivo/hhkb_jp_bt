@@ -1,4 +1,4 @@
-// HHKB JP Keyboard Controller sketch for Arduino 
+// HHKB JP Keyboard Controller sketch for Arduino(micom), RN-42(Bluetooth module)
 // Reference:
 //  https://github.com/addsict/YetAnotherHHKBController/blob/master/hhkb/hhkb.ino
 //  https://github.com/tmk/tmk_keyboard/blob/master/keyboard/hhkb/doc/HHKB.txt
@@ -20,7 +20,7 @@
 
 // #define DEBUG
 
-// Arduino Pins
+// Arduino Pins(change according to your situation)
 int muxRowControlPin[] = {4, 5, 6, 14, 15};
 int muxColControlPin[] = {10, 9, 11};
 int enableColPin = 12;
